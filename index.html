@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>--Shivam--: Things I Like</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+
+    
+    <nav class="navbar-top">
+        <a href="#introduction">Introduction</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#createdBy">Created By</a>
+    </nav>
+    
+    <nav class="navbar-side">
+        <a href="https://en.wikipedia.org/wiki/Atlanta_Braves" rel="noopener" target="_blank">Braves</a>
+        <a href="https://en.wikipedia.org/wiki/Baseball" rel="noopener" target="_blank">Baseball</a>
+        <a href="https://steamcommunity.com/id/Shiko10/" rel="noopener" target="_blank">Steam</a>
+        <a href="https://en.wikipedia.org/wiki/Counter-Strike:_Global_Offensive" rel="noopener" target="_blank">CSGO</a>
+        <a href="https://myanimelist.net/topanime.php" rel="noopener" target="_blank">Top Anime</a>
+        <a href="https://en.wikipedia.org/wiki/Death_Parade" rel="noopener" target="_blank">Death Parade</a>
+    </nav>
+
+    <header class="masthead" id="masthead">
+        <h1 class="masthead-title">Shivam</h1>
+    </header>
+
+    <body>
+        <section class="introduction" id="introduction">
+            <h2>Introduction</h2>
+            <p>
+                I am a computer programmer with strong knowledge of Java and Python. During my internship at TKE (Thyssen-Krupp Elevator),
+                I worked with the MAX team to conduct network traffic simulations as well as create python scripts for data collection.
+            </p>
+            <p>
+                I graduated from Georgia State University with degrees in Computer Science and Statistics. Most of my time spent at GSU was labs
+                and creating projects for classes. I created a desktop application that would take a user's Covid-19 symptoms and age. The application would then 
+                display the chances that user would become a critical care patient.
+            </p>
+        </section>   
+        
+        <section class="hobbies" id="hobbies">
+            <h2>Hobbies</h2>
+            <p>
+                Here are my three biggest hobbies as of right now.
+            </p>
+            <nav class="hobbies-nav">
+                <ul class="hobbies-list">
+                    <li><a href="#baseball">Baseball</a></li>
+                    <li><a href="#video-games">Video Games</a></li>
+                    <li><a href="#anime">Anime</a></li>
+                </ul>
+            </nav>
+            <section id="baseball">
+                <h3 class="baseball">Baseball</h3>
+                <div class="centered">
+                    <video src="./assets/ClipOfGame.MP4" controls>Video is not supported</video>
+                    <img  src="./assets/PicOfGame.jpg" alt="Me at the Game">
+                </div>
+                
+                <P>
+                    I love baseball. I had the chance to go watch the Braves playoff game against the Dodgers. I grew up watching the Braves with my dad
+                    and he is the reason why I am so into baseball. My favorite <em>talks</em> with my dad are about the Braves and their offseason moves
+                    as well as their current form.
+                </P>
+            </section>
+            <section id="video-games">
+                <h3 class="video-games">Video Games</h3>
+                <div class="centered">
+                    <img src="./assets/CSGORank.png" alt="CSGO Rank">
+                    <img src="./assets/SteamReplay.png" alt="Steam Replay">
+                </div>
+                
+                <p>
+                   One of my favorite games to play is Counter-Strike: Global Offensive. I am currently the highest rank in CSGO. I started playing CSGO when I was a freshman in
+                   highschool. 
+                </p>
+                <p>
+                    I also play singleplayer games. I like to collect all the achievements in singleplayer games. If you check my steam profile you will see that I have 100% completion in
+                    9 games. I am currently working on getting Hollow Knight to 100%.
+                </p>
+            </section>
+            <section id="anime">
+                <h3 class="anime">Anime</h3>
+                <div class="centered">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmEzN2YzOTItMDI5MS00MGU4LWI1NWQtOTg5ZThhNGQwYTEzXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg" alt="Fullmetal Alchemist">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMTMwMDM4N2EtOTJiYy00OTQ0LThlZDYtYWUwOWFlY2IxZGVjXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg" alt="Jujutsu Kaisen">
+                    <img src="https://cdn.myanimelist.net/images/anime/3/40451.jpg" alt="Bleach">
+                </div>
+                <p>
+                    I like to watch Anime. My first anime was <em>Naruto</em>.
+                    <h5>My Top 3:</h5>
+                    <div class="centered">
+                        <ol class="anime-list">
+                            <li>Full Metal Alchemist: Brotherhood</li>
+                            <li>Jujutsu Kaisen</li>
+                            <li>Bleach</li>
+                        </ol> 
+                    </div>
+                   
+                    I just recently finished watching <em>Death Parade</em> which is about an arbiter that judges whether people go to be reincarnated or sent to the void. He completes his judgement by making two people
+                    play bar games.
+                </p>
+            </section>
+        </section>
+    </body>
+
+    
+    <form id="myForm">
+        <fieldset>
+            <legend>Add A Comment</legend>
+            <label for="name">Name: </label>
+            <input id="name" type="text" name="name" required>
+            <br>
+            <br>
+            <label for="userEmail">Email: </label>
+            <input id="userEmail" type="email" name="email" required>
+            <br>
+            <br>
+            <label for="userComment">Enter Your Comment Below </label>
+            <br>
+            <br>
+            <textarea id ="userComment" rows="4" cols="50" name="comment" required></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+
+    <footer id="createdBy">
+        <p>
+            Created By: Shivam Patel<br>
+            <a href="mailto:ssp2875@gmail.com">ssp2875@gmail.com</a>
+        </p>
+    </footer>
+
+</html>
